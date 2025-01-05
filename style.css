@@ -215,3 +215,93 @@ box-shadow: none !important;
 span.fas.fa-caret-down {
     color: #2b6cb0;
 }
+/*flg_global.css follows from here */
+
+:root {
+  --bs-primary: #2B6CB0; 
+  --bg-dark: #2B6CB0; 
+}
+
+/* change navbar color */
+div.navbar.fixed-top.navbar-expand-md.bg-dark {
+  background-color: #2B6CB0 !important; /* Force the background color change */
+}
+
+/* change color of sign in menu in nav bar */
+a#damenuLabel.nav-link.dropdown-toggle.d-none.d-md-block {
+  color: white; /* Change text color to white */
+}
+div.dropdown-menu.dropdown-menu-end.show {
+  background-color: #2B6CB0; /* Dropdown menu background */
+}
+div.dropdown-menu.dropdown-menu-end.show .dropdown-item {
+  color: white; /* Set text color of dropdown items */
+}
+div.dropdown-menu.dropdown-menu-end.show .dropdown-item:hover {
+  background-color: #1e4e87; /* Hover background color */
+}
+
+/* change Primary button color to 2b6cb0 */
+/* Override the primary Bootstrap button color */
+.btn-primary {
+  background-color: #2B6CB0;
+  border-color: #2B6CB0;
+}
+
+/* Adjust hover state */
+.btn-primary:hover {
+  background-color: #235294; /* Custom active background color */
+  border-color: #235294;    /* Custom active border color */
+}
+/* Adjust focus state */
+.btn-primary:focus, .btn-primary.focus {
+  background-color: #235294; /* Custom active background color */
+  border-color: #235294;    /* Custom active border color */
+  box-shadow: 0 0 0 0.2rem rgba(43, 108, 176, 0.5);
+}
+/* Adjust active state */
+.btn-primary:active, .btn-primary.active {
+  background-color: #235294; /* Custom active background color */
+  border-color: #235294;    /* Custom active border color */
+}
+/* Ensure disabled state blends well */
+.btn-primary.disabled, .btn-primary:disabled {
+  background-color: #2B6CB0;
+  border-color: #2B6CB0;
+  opacity: 0.65; /* Default Bootstrap opacity for disabled buttons */
+}
+
+/* change Finish Later button color */
+.btn-light {
+  background-color: #e9ecef; /* Change to your desired background color */
+  color: #000; /* Change to your desired text color */
+  border-color: #e9ecef; /* Change the border color */
+}
+
+.btn-light:hover, 
+.btn-light:focus {
+  background-color: #ced4da; /* Lighter color on hover */
+  color: #000; /* Text color on hover */
+  border-color: #ced4da; /* Border color on hover */
+}
+
+/* control color of outline when fields are in focus/selected */
+input.form-control:focus,
+textarea.form-control:focus,
+select.form-select:focus {
+  border-color: #2B6CB0; /* Change the border color */
+  box-shadow: 0 0 0 0.25rem rgba(43, 108, 176, 0.5); /* Add a custom glow effect */
+  outline: none; /* Remove the default outline */
+}
+
+/* change active nav pill to 2b6cb0 */
+.nav-pills .nav-link.active {
+  background-color: #2B6CB0;
+  color: #fff; /* Adjust text color for better contrast */
+  border-color: #2B6CB0; /* Optional: Matches the border if visible */
+  position: relative;
+  text-decoration: none; /* Remove underline from the link */
+}
+a.nav-link.danavlink.active.thelast {
+  background-color: #2B6CB0;
+}
