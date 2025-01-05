@@ -218,3 +218,6 @@ span.fas.fa-caret-down {
 button.btn.btn-da.btn-primary:disabled {
     color: white; /* Ensure text color stays white when disabled */
 }
+.form-label.btn-light:hover {
+    background-color: #d9e3f0; /* Change this to your desired background color */
+}
