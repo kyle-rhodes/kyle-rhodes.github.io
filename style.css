@@ -209,3 +209,6 @@ color : #fff !important;
 .btn-secondary:focus, .btn-secondary.focus,     .btn.btn-da.btn-primary:focus, .btn-primary:focus{
 box-shadow: none !important;
 }
+#nav_username {
+    color: #2b6cb0;
+}
