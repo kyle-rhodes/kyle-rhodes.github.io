@@ -226,5 +226,8 @@ button.btn.btn-primary:disabled {
     color: white; /* You can change this to any color you prefer */
 }
 button.btn.btn-da.btn-primary:disabled {
-    color: white:
+    color: white;
+}
+a.btn.btn-sm.btn-secondary {
+    color: white;
 }
